@@ -1,0 +1,21 @@
+.titulo {
+    color: #FF6347; /* Cor do título */
+    font-size: 36px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito no título */
+}
+.subtitulo {
+    color: #4682B4; /* Cor dos subtítulos */
+    font-size: 24px; /* Tamanho da fonte dos subtítulos */
+    margin-top: 20px; /* Espaçamento superior */
+}
+.texto {
+    color: #2E8B57; /* Cor dos textos gerais */
+    font-size: 18px; /* Tamanho da fonte dos textos */
+}
+    /* Seleciona o input number e aplica um placeholder visual */
+    .stNumberInput input {
+        color: #aaa; /* Cor do texto de fundo (placeholder) */
+    }
+    .stNumberInput input:focus {
+        color: #aaa; /* Cor do texto quando o campo é clicado */
+    }
