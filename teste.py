@@ -1,7 +1,6 @@
-import pandas as pd
+import  pandas as pd
 import sqlite3
 from colunas import loja_columns , produto_columns
-
 
 def posicionar_colunas(df) -> pd.DataFrame:
     df = df.iloc[:, :9]
@@ -34,6 +33,7 @@ df_p['is_client'] = True
 
 #df_p.to_excel('teste.xlsx', index=False)
 
+df_p.to_sql('tbl_lojas', conn, if_exists='append', index=False)
 #tratando lojas não cliente
 
 df_nc = pd.read_excel('BASE PESQUISA DE PREÇO.xlsx' , sheet_name='LOJAS NÃO CLIENTES ')
@@ -46,15 +46,17 @@ df_nc['agencia'] = None
 df_nc['cod_loja_gm'] = None
 
 
-df_nc.columns = loja_columns
 
+df_nc.columns = ['gerente','supervisor','rede','endereco','cidade','uf','agencia','cod_loja_gm']
+print(df_nc.columns)
 df_nc['is_client'] = False
 
-df_nc = df_nc[df_p.columns]
-#df_nc.to_excel('teste.xlsx',index=False)
+df_nc.to_excel('teste.xlsx',index=False)
 
 df_lojas = pd.concat([df_p, df_nc], axis=0, ignore_index=True)
 
-#df_lojas.to_excel('teste.xlsx',index=False)
+df_lojas.to_excel('teste.xlsx',index=False)
 
-df_lojas.to_sql('tbl_lojas', conn, if_exists='append', index=False)
+df_nc.to_sql('tbl_lojas', conn, if_exists='append', index=False)
+
+#df_lojas.to_sql('tbl_lojas', conn, if_exists='append', index=False)
