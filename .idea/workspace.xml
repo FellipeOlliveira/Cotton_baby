@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b718d9d-8d2d-45ac-befc-4b1723764d48" name="Changes" comment="commit new bd">
-      <change afterPath="$PROJECT_DIR$/excel_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BASE PESQUISA DE PREÇO.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/bd_worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cotton_baby.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_macaco.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_macaco.py" afterDir="false" />
-    </list>
+    <list default="true" id="5b718d9d-8d2d-45ac-befc-4b1723764d48" name="Changes" comment="eitbi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,12 +160,38 @@
       <option name="project" value="LOCAL" />
       <updated>1726172908188</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ultima versao cotton">
+      <option name="closed" value="true" />
+      <created>1727040033179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727040033179</updated>
+    </task>
+    <task id="LOCAL-00008" summary="eitbi">
+      <option name="closed" value="true" />
+      <created>1727040152114</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727040152114</updated>
+    </task>
+    <task id="LOCAL-00009" summary="eitbi">
+      <option name="closed" value="true" />
+      <created>1727040173891</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727040173891</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit teste" />
     <MESSAGE value="commit new bd" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit new bd" />
+    <MESSAGE value="ultima versao cotton" />
+    <MESSAGE value="eitbi" />
+    <option name="LAST_COMMIT_MESSAGE" value="eitbi" />
   </component>
 </project>

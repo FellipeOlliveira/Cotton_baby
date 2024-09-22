@@ -12,6 +12,7 @@ def botao(selecaoConc, selecaoPrd, preco):
         else:
             st.error('Por favor, insira todas as opções corretamente.')
 
+
 def Redes(exibRede):
     selecaoRede = st.selectbox(
         'Selecione uma rede',
