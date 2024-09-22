@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b718d9d-8d2d-45ac-befc-4b1723764d48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/macaco.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bd_infos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cotton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_macaco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teste.py" afterDir="false" />
+    <list default="true" id="5b718d9d-8d2d-45ac-befc-4b1723764d48" name="Changes" comment="commit new bd">
+      <change afterPath="$PROJECT_DIR$/excel_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BASE PESQUISA DE PREÇO.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bd_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/bd_worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cotton_baby.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_macaco.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_macaco.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FellipeOlliveira&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mkhorasani/Streamlit-Authenticator.git&quot;,
+    &quot;accountId&quot;: &quot;1ce42383-77c2-4308-922c-ee183b4adade&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -44,6 +52,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.bd_infos.executor": "Run",
+    "Python.bd_worker.executor": "Run",
+    "Python.excel_factory.executor": "Run",
+    "Python.macaco.executor": "Run",
+    "Python.streamlit_macaco.executor": "Run",
     "Python.teste.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -63,6 +75,35 @@
       <recent name="C:\Users\semid\PycharmProjects\macaco" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="bd_worker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="macaco" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bd_worker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bd_worker" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,6 +120,60 @@
       <option name="presentableId" value="Default" />
       <updated>1725048782123</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit teste">
+      <option name="closed" value="true" />
+      <created>1725741030471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725741030471</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit teste">
+      <option name="closed" value="true" />
+      <created>1725741039508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725741039508</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit teste">
+      <option name="closed" value="true" />
+      <created>1725741065047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725741065047</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit teste">
+      <option name="closed" value="true" />
+      <created>1726171077115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726171077115</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit new bd">
+      <option name="closed" value="true" />
+      <created>1726172712554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726172712554</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit new bd">
+      <option name="closed" value="true" />
+      <created>1726172908188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726172908188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit teste" />
+    <MESSAGE value="commit new bd" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit new bd" />
   </component>
 </project>
